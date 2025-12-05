@@ -1,4 +1,28 @@
-# Java-project-
+cd FileEncryptionUtility
+
+.\run.bat
+
+
+
+javac -d bin src/com/filecipher/*.java src/com/filecipher/cipher/*.java src/com/filecipher/cipher/exceptions/*.java src/com/filecipher/ui/*.java
+
+
+
+
+# 1. Go to your project directory
+cd "C:\Users\Sajal Samanta\FileEncryptionUtility"
+
+# 2. Check if Java is installed
+java -version
+
+# 3. Check if javac is available
+javac -version
+
+# 4. List all files to verify structure
+dir /s
+
+# 5. Run the batch file with .\
+.\run.bat
 
 
 
