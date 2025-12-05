@@ -15,6 +15,7 @@ cd FileEncryptionUtility
 javac -d bin src/com/fileencryption/exception/*.java src/com/fileencryption/core/*.java src/com/fileencryption/ui/*.java src/com/fileencryption/Main.java
 java -cp bin com.fileencryption.Main
 
+java -cp bin com.fileencryption.Main
 
 
 
