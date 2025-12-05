@@ -2,13 +2,15 @@ cd FileEncryptionUtility
 
 .\run.bat
 
-
-
 javac -d bin src/com/filecipher/*.java src/com/filecipher/cipher/*.java src/com/filecipher/cipher/exceptions/*.java src/com/filecipher/ui/*.java
 
 
 
-compile and run :
+
+
+
+compile and run 1 :
+
 
 cd FileEncryptionUtility
 
@@ -17,6 +19,17 @@ java -cp bin com.fileencryption.Main
 
 java -cp bin com.fileencryption.Main
 
+
+
+
+alternative compile and run 2 :
+
+
+cd FileEncryptionUtility
+
+javac -d bin src/com/fileencryption/exception/*.java src/com/fileencryption/core/*.java src/com/fileencryption/ui/*.java src/com/fileencryption/Main.java
+
+java -cp bin com.fileencryption.Main
 
 
 # 1. Go to your project directory
