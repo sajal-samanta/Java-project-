@@ -8,6 +8,15 @@ javac -d bin src/com/filecipher/*.java src/com/filecipher/cipher/*.java src/com/
 
 
 
+compile and run :
+
+cd FileEncryptionUtility
+
+javac -d bin src/com/fileencryption/exception/*.java src/com/fileencryption/core/*.java src/com/fileencryption/ui/*.java src/com/fileencryption/Main.java
+java -cp bin com.fileencryption.Main
+
+
+
 
 # 1. Go to your project directory
 cd "C:\Users\Sajal Samanta\FileEncryptionUtility"
